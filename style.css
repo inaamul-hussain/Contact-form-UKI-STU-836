@@ -1,11 +1,11 @@
-body{
+body {
     background-image: url(./assets/bg-image.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
-.close{
+.close {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -15,7 +15,7 @@ body{
     cursor: pointer;
 }
 
-.popup{
+.popup {
     background: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
@@ -25,21 +25,18 @@ body{
     align-items: center;
     display: none;
     justify-content: center;
-    
 }
 
-.popup-form{
+.popup-form {
     height: 90%;
     width: 45%;
     background: black;
     padding: 20px;
     border-radius: 5px;
     position: relative;
-    
-
 }
 
-.popup-form h3{
+.popup-form h3 {
     text-align: center;
     color: gold;
     font-size: xx-large;
@@ -48,9 +45,7 @@ body{
     margin-bottom: 10px;
 }
 
-
-
-input{
+input {
     margin: 20px auto;
     display: block;
     width: 50%;
@@ -62,7 +57,7 @@ input{
     color: gold;
 }
 
-label{
+label {
     margin: 1px auto;
     display: block;
     width: 50%;
@@ -70,7 +65,8 @@ label{
     color: azure;
     font-size: 20px;
 }
-.send{
+
+.send {
     margin: 1px auto;
     display: block;
     padding: 0px;
@@ -83,7 +79,7 @@ label{
     border: 2px azure solid;
 }
 
-.ContactUs{
+.ContactUs {
     padding: 10px 15px;
     background: gold;
     color: black;
@@ -92,11 +88,17 @@ label{
     font-weight: bolder;
     border: 2px azure solid;
     margin-top: 38%;
-    
-
 }
 
-.btn{
+.btn {
     display: flex;
     justify-content: center;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-top: -15px;
 }
