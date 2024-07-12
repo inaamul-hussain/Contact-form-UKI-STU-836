@@ -1,0 +1,102 @@
+body{
+    background-image: url(./assets/bg-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    
+}
+
+.popup-form{
+    height: 90%;
+    width: 45%;
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    
+
+}
+
+.popup-form h3{
+    text-align: center;
+    color: gold;
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+
+input{
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid gray;
+    padding-top: 0;
+    margin-top: 0;
+    background: black;
+    color: gold;
+}
+
+label{
+    margin: 1px auto;
+    display: block;
+    width: 50%;
+    padding: 0px;
+    color: azure;
+    font-size: 20px;
+}
+.send{
+    margin: 1px auto;
+    display: block;
+    padding: 0px;
+    background: gold;
+    color: black;
+    font-size: larger;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 2px azure solid;
+}
+
+.ContactUs{
+    padding: 10px 15px;
+    background: gold;
+    color: black;
+    font-size: larger;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 2px azure solid;
+    margin-top: 38%;
+    
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
